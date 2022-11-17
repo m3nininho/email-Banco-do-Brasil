@@ -1,4 +1,4 @@
-import Anuncio from "../Anuncio"
+import Promotion from "../Promotion"
 
 import phoneImg from '../../assets/images/phone.jpg'
 import pcImg from '../../assets/images/pc.jpg'
@@ -15,12 +15,12 @@ return /*html*/`
         <h2 class=" text-textColorDefault font-bold mt-5 text-3xl ">Condições especiais pensadas para você</h2>
       </div>
       <div class=' p-5 mx-auto'>
-        ${Anuncio(0, 'left')}
-        ${Anuncio(1, 'right')}
-        ${Anuncio(2, 'left')}
-        ${Anuncio(3, 'right')}
-        ${Anuncio(4, 'left')}
-        ${Anuncio(5, 'right')}
+        ${Promotion(0, 'left')}
+        ${Promotion(1, 'right')}
+        ${Promotion(2, 'left')}
+        ${Promotion(3, 'right')}
+        ${Promotion(4, 'left')}
+        ${Promotion(5, 'right')}
       </div>
       <div class="p-5">
           <h2 class=" text-textColorDefault text-xl font-bold text-center">Consulte todas as ofertas</h2>
